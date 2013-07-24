@@ -27,7 +27,3 @@ Quick start
    to create a poll (you'll need the Admin app enabled).
 
 5. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
-
-Designed by Raindolf Owusu.
-iraindolf@gmail.com
-www.oasiswebsoft.com
