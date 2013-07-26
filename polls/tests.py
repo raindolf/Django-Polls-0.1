@@ -1,4 +1,3 @@
-
 import datetime
 
 from django.utils import timezone
@@ -45,7 +44,7 @@ def test_was_published_recently_with_recent_poll(self):
 class PollViewTests(TestCase):
     def test_index_view_with_no_polls(self):
         """
-        If no polls exist, an appropriate message should be displayed.
+        If no polls exist, an appropriate message shud be displayed.
         """
         response = self.client.get(reverse('polls:index'))
         self.assertEqual(response.status_code, 200)
